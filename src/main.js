@@ -18,7 +18,7 @@ export default function (Vue, {
   isClient
 }) {
   // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
+  Vue.component('LayoutDefault', DefaultLayout)
   Vue.component('LayoutHero', HeroLayout)
 
   //add page parts as default components

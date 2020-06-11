@@ -1,12 +1,12 @@
 <template>
-  <Layout>
+  <LayoutDefault>
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
     <h1>Hello, world!</h1>
     <div class="flex flex-wrap mt-10">
       <card v-for="card in cards" v-bind="card" :key="card.title"></card>
     </div>
-  </Layout>
+  </LayoutDefault>
 </template>
 
 
@@ -14,7 +14,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Example !"
+    title: "Holons!"
   },
 
   data() {
